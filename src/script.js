@@ -38,10 +38,10 @@ document.querySelector('button[type="submit"]')
     if (!emailField.value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
       return showAndHideErrorMessage()
     }
-    firstNameield.value = ''
-    lastNameield.value = ''
-    emailield.value = ''
-    textareaield.value = ''
+    firstNameField.value = ''
+    lastNameField.value = ''
+    emailField.value = ''
+    textareaField.value = ''
     phoneField.value = ''
     productField.selectedIndex = 0
     helpRadio.checked = true
